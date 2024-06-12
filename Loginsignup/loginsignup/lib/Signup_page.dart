@@ -19,7 +19,7 @@ class _Signup_pageState extends State<Signup_page> {
 
   // Function to register a user
   Future<void> registerUser(BuildContext context) async {
-    String url = "http://192.168.1.65:5000/signup/";
+    String url = "http://192.168.1.70:5000/signup/";
 
     // User registration data
     Map<String, String> registrationData = {

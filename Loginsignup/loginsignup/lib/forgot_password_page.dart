@@ -19,7 +19,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
 
   // Function to reset the password
   Future<void> resetPassword(BuildContext context) async {
-    String url = "http://192.168.1.65:5000/reset_password/";
+    String url = "http://192.168.1.70:5000/reset_password/";
 
     Map<String, String> loginData = {
       'email': emailController.text,

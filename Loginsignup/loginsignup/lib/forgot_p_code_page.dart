@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loginsignup/Signup_page.dart';
-import 'package:loginsignup/forgotPassword_page.dart';
+import 'package:loginsignup/forgot_password_page.dart';
 import 'package:loginsignup/login_page.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
@@ -16,7 +16,7 @@ class _forgotPCode_pageState extends State<forgotPCode_page> {
   TextEditingController emailController = TextEditingController();
 
   Future<void> forgotPassword(BuildContext context) async {
-    String url = "http://192.168.1.65:5000/forgot_password/";
+    String url = "http://192.168.1.70:5000/forgot_password/";
 
     Map<String, String> resetData = {
       'email': emailController.text,

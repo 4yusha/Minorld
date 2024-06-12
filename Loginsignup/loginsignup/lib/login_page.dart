@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:loginsignup/Home_page.dart';
 import 'package:loginsignup/Signup_page.dart';
-import 'package:loginsignup/forgotPCode_page.dart';
+import 'package:loginsignup/forgot_p_code_page.dart';
 
 // Main Login Widget
 // ignore: must_be_immutable
@@ -22,7 +22,7 @@ class MyLogin extends StatelessWidget {
   Future<void> Login_user(BuildContext context) async {
     //asynchronous function named 'Login_user' which takes a 'BuildContext' parameter
     String url =
-        "http://192.168.1.65:5000/login/"; //define url endpoint for the login API
+        "http://192.168.1.70:5000/login/"; //define url endpoint for the login API
 
     Map<String, String> loginData = {
       // Creating a map named loginData to hold the email and password entered by the user.

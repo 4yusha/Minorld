@@ -112,7 +112,7 @@ app.post('/signup', (req, res) => {
     }
 });
 
-app.post('/login', (req, res) => {
+app.post('/sign', (req, res) => {
     const { email, createPassword } = req.body;
     console.log(email, createPassword);
   

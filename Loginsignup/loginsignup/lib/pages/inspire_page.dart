@@ -175,7 +175,7 @@ class _InspirePageState extends State<InspirePage> {
       _isLoading = true;
     });
 
-    String url = "http://192.168.1.65:5000/post";
+    String url = "http://192.168.1.70:5000/post";
 
     Map<String, dynamic> postData = {
       'postId': widget.postId,
